@@ -117,8 +117,13 @@
               "devServerTarget": "ACASTRO-Parcial1:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ACASTRO-Parcial1"
 }
